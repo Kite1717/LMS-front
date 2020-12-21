@@ -1,0 +1,25 @@
+.kt-portlet__body {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.kt-portlet__header {
+  background-color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 25px;
+  border-bottom: 1px solid #ebedf2;
+  min-height: 60px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  .kt-portlet__header_item {
+    display: flex;
+    align-items: center;
+  }
+}

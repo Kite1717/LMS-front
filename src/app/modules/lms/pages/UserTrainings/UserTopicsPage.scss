@@ -1,0 +1,46 @@
+@import "../../../../../index.scss";
+
+.topics-container {
+  @extend .kt-portlet__header;
+  @extend .kt-portlet__body;
+
+  .topics-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  #finish-course {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .section-card {
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+
+    h4 {
+      margin: 0;
+      display: inline;
+      padding-left: 0.5rem;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #74788d;
+    border-radius: 4px;
+    padding: 1.25rem;
+    background-color: #ebedf2;
+  }
+
+  .accordion {
+    .card-header {
+      padding: 0;
+      border-radius: unset;
+      padding: unset;
+      margin-bottom: unset;
+      background-color: unset;
+      border-bottom: unset;
+    }
+  }
+}
